@@ -1,0 +1,19 @@
+.App {
+  min-width: 480px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
+  background: var(--white);
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: none !important;
+}
+
+p {
+  margin: 0;
+}

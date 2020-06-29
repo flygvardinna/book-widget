@@ -1,0 +1,45 @@
+.bookList {
+  position: relative;
+  min-height: 200px;
+  border: 1px solid var(--lines);
+}
+
+.emptyList {
+  position: relative;
+  min-height: 270px;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 35px 30px;
+  border-bottom: 1px solid var(--lines);
+}
+
+.filter p {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.tag {
+  margin-right: 10px;
+  padding: 5px;
+  background: var(--gray);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.clearFilterButton {
+  color: var(--text);
+}
+
+.clearFilterButton span {
+  text-decoration: underline;
+}

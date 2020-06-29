@@ -1,0 +1,16 @@
+.tabs {
+  display: flex;
+  text-align: center;
+}
+
+.tab {
+  width: 33.33%;
+  padding: 15px;
+  border-bottom: 1px solid var(--lines);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.tab:not(:first-of-type) {
+  border-left: 1px solid var(--lines);
+}
